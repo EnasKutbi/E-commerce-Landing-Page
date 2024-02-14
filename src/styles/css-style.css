@@ -1,0 +1,23 @@
+.header {
+    background-color: #DCF2F1;
+    margin: 2rem;
+    padding: 2rem;
+    display: inline-block;
+    margin: 150;
+}
+div, footer {
+    background-color:blanchedalmond;
+    margin: 2rem;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none; 
+    color: black;  
+}
+a:hover{
+    color: rgb(0, 80, 73);
+}
+ul {
+    list-style-type: none;
+}
