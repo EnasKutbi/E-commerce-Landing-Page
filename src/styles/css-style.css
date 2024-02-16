@@ -1,89 +1,107 @@
-header, footer {
-    background-color: #DCF2F1;
-    margin: 2rem;
-    padding: 2rem;
-    display: inline-block;
-    margin: 150;
+* {
+  font-family: "Harry Potter", sans-serif;
+}
+header,
+footer {
+  background-color: #dcf2f1;
+  padding: 2rem 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /*display: inline-block;*/
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+li {
+  font-size: 20px;
+  padding: 0rem 5rem;
 }
 body {
-    text-align: center;
+  text-align: center;
 }
 div {
-    background-color:rgb(212, 201, 185);
-    margin: 2rem;
-    padding: 30px;
+  background-color: rgb(212, 201, 185);
+  margin: 2rem;
+  padding: 30px;
 }
 h1::first-letter {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 #home {
-    color: #DCF2F1;
-    padding: 50px;
-    background-image: url("../images/hogwarts.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 20px;
-    width: 650px;
+  color: #dcf2f1;
+  padding: 50px;
+  background-image: url("../images/hogwarts.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  width: 1100px;
+  display: inline-block;
+  margin-top: 1rem;
 }
-
 .products {
-    display: inline-block;
-    border-radius: 15px;
-    border: 1px solid grey;
-    box-shadow: 4px 4px rgb(186, 186, 186);
+  display: inline-block;
+  border: 1px solid grey;
+  box-shadow: 4px 4px rgb(186, 186, 186);
 }
 .products:hover {
-    transform: translate(5px, 5px);
-    box-shadow: 0px 0px;
+  transform: translate(5px, 5px);
+  box-shadow: 0px 0px;
 }
 
 a {
-    text-decoration: none; 
-    color: black;  
+  text-decoration: none;
+  color: black;
 }
-a:hover{
-    color: rgb(0, 80, 73);
-    font-size: 1.2rem;
-}
-ul {
-    list-style-type: none;
+a:hover {
+  color: rgb(0, 80, 73);
+  font-size: 1.2rem;
 }
 button {
-    background-color: rgb(32, 52, 53);
-    color: white;
-    padding: 7px;
-    border-radius: 10px;
+  background-color: rgb(32, 52, 53);
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
 }
 button:hover {
-    opacity: 0.8;
-    /*transform: scale(1.1);*/
+  opacity: 0.8;
+  /*transform: scale(1.1);*/
 }
 #reviews {
-    height: 300px;
-    width: 550px;
-    font-size: 18px;
-    padding: 10px;
-    overflow: scroll;
+  height: 300px;
+  width: 550px;
+  font-size: 18px;
+  padding: 10px;
+  overflow: scroll;
 }
-.review{
-    background-color: white;
-    display: inline-block;
-    width: 500px;
-    padding: 5px;
-    border-radius: 10px;
-    text-align: left;
-    margin: 5px;
+.review {
+  background-color: white;
+  display: inline-block;
+  width: 500px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: left;
+  margin: 5px;
 }
-.review__title{
-    font-size: 25px;
-    background-color: rgb(212, 201, 185);
-    text-align: center;
-    width: auto;
+.review__title {
+  font-size: 25px;
+  background-color: rgb(212, 201, 185);
+  text-align: center;
+  width: auto;
 }
 input {
-    background-color: #DCF2F1;
+  background-color: #dcf2f1;
 }
 .icon-style {
-    font-size: 2rem;
+  font-size: 2rem;
+}
+small {
+  font-family: "Times New Roman", Times, serif;
 }
