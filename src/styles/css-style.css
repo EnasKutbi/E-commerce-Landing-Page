@@ -19,7 +19,7 @@ body {
   background-color: #111a33;
 }
 div {
-  background-color: #dcf2f1;
+  background-color: #cbd2dc;
   margin: 2rem;
   padding: 30px;
 }
@@ -123,7 +123,7 @@ h1 {
 .product {
   margin-top: 0px;
   display: inline-block;
-  border: 1px solid grey;
+  border: 10px solid white;
   border-radius: 10px;
 }
 .product:hover {
@@ -174,6 +174,17 @@ button:hover {
   font-size: 25px;
   text-align: center;
 }
+.buy {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.girl {
+  font-size: 40px;
+  color: palevioletred;
+}
+.fa-star {
+  color: goldenrod;
+}
 #newletter {
   border-radius: 10px;
 }
@@ -191,4 +202,5 @@ input {
 small {
   font-family: "IFC RAILROAD", sans-serif;
   color: white;
+  font-size: 15px;
 }
