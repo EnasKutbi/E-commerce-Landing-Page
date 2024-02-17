@@ -128,7 +128,8 @@ a {
 }
 a:hover {
   color: #dcf2f1;
-  transform: scale(1.5);
+  font-size: 25px;
+  transform: scale(1.2);
 }
 button {
   background-color: rgb(32, 52, 53);
@@ -151,10 +152,10 @@ button:hover {
 .review {
   background-color: white;
   width: 600px;
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
   text-align: left;
-  margin: 15px;
+  margin: 20px 70px;
 }
 .review__title {
   font-size: 25px;
