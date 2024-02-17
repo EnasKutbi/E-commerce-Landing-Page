@@ -204,3 +204,33 @@ small {
   color: white;
   font-size: 15px;
 }
+
+@media screen and (max-width: 890px) {
+  header,
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 23rem;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #home {
+    width: auto;
+  }
+  .products {
+    grid-template-columns: auto auto;
+  }
+  .reviews-box {
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  #home {
+    width: auto;
+  }
+  .products {
+    grid-template-columns: auto;
+  }
+}
