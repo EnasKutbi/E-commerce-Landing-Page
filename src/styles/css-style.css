@@ -24,7 +24,7 @@ div {
   padding: 30px;
 }
 p {
-  font-family: 'IFC RAILROAD', sans-serif;
+  font-family: "IFC RAILROAD", sans-serif;
 }
 nav ul {
   display: flex;
@@ -65,7 +65,7 @@ h1 {
     top: 0;
     left: 30px;
   }
-  100%{
+  100% {
     top: 0;
     left: 0px;
   }
@@ -88,13 +88,13 @@ h1 {
   margin-top: 1rem;
 }
 #home:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .start-title {
   margin-bottom: 0.5rem;
   margin-top: 0;
 }
-.start-button{
+.start-button {
   padding: 10px 50px;
   background-color: #a0abbc;
   color: black;
@@ -102,14 +102,23 @@ h1 {
   border-radius: 50px;
 }
 .section-title {
-    color: #dcf2f1;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  color: #dcf2f1;
 }
 .products {
+  margin-top: 0px;
+  background-color: #111a33;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.product {
+  margin-top: 0px;
   display: inline-block;
   border: 1px solid grey;
   border-radius: 10px;
 }
-.products:hover {
+.product:hover {
   transform: translate(5px, 5px);
   box-shadow: 0px 0px;
 }
@@ -150,15 +159,19 @@ button:hover {
 .review__title {
   font-size: 25px;
   text-align: center;
-  width: auto;
 }
 input {
-  background-color: #dcf2f1;
+  background-color: #111a33;
+  color: #dcf2f1;
+  border-radius: 20px;
+  height: 25px;
+  width: 250px;
+  margin: 1rem;
 }
 .icon-style {
   font-size: 2rem;
 }
 small {
-  font-family: 'IFC RAILROAD', sans-serif;
+  font-family: "IFC RAILROAD", sans-serif;
   color: white;
 }
