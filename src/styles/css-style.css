@@ -19,9 +19,12 @@ body {
   background-color: #111a33;
 }
 div {
-  background-color: rgb(212, 201, 185);
+  background-color: #dcf2f1;
   margin: 2rem;
   padding: 30px;
+}
+p {
+  font-family: 'IFC RAILROAD', sans-serif;
 }
 nav ul {
   display: flex;
@@ -29,12 +32,48 @@ nav ul {
   list-style-type: none;
 }
 li {
-  font-size: 20px;
+  font-size: 22px;
   padding: 0rem 5rem;
 }
-h1::first-letter {
-  font-size: 2.5rem;
+h1 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
 }
+.harray {
+  position: relative;
+  animation-name: harry-fly;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes harry-fly {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: -30px;
+  }
+  50% {
+    top: 0;
+    left: 0px;
+  }
+  75% {
+    top: 0;
+    left: 30px;
+  }
+  100%{
+    top: 0;
+    left: 0px;
+  }
+}
+/*h1::first-letter {
+  /*font-size: 30px;
+  color: rgb(44, 43, 43);
+}*/
 #home {
   color: #dcf2f1;
   padding: 50px;
@@ -43,12 +82,24 @@ h1::first-letter {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;
-  width: 1100px;
+  width: 1000px;
+  height: 250px;
   display: inline-block;
   margin-top: 1rem;
 }
 #home:hover {
-    transform: scale(2rem);
+    transform: scale(1.1);
+}
+.start-title {
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+.start-button{
+  padding: 10px 50px;
+  background-color: #a0abbc;
+  color: black;
+  font-size: 15px;
+  border-radius: 50px;
 }
 .section-title {
     color: #dcf2f1;
@@ -56,20 +107,19 @@ h1::first-letter {
 .products {
   display: inline-block;
   border: 1px solid grey;
-  box-shadow: 4px 4px rgb(186, 186, 186);
+  border-radius: 10px;
 }
 .products:hover {
   transform: translate(5px, 5px);
   box-shadow: 0px 0px;
 }
-
 a {
   text-decoration: none;
   color: black;
 }
 a:hover {
   color: #dcf2f1;
-  font-size: 1.2rem;
+  transform: scale(1.5);
 }
 button {
   background-color: rgb(32, 52, 53);
@@ -82,24 +132,23 @@ button:hover {
   /*transform: scale(1.1);*/
 }
 #reviews {
+  display: inline-block;
   height: 300px;
-  width: 550px;
+  width: 800px;
   font-size: 18px;
   padding: 10px;
   overflow: scroll;
 }
 .review {
   background-color: white;
-  display: inline-block;
-  width: 500px;
-  padding: 5px;
+  width: 600px;
+  padding: 15px;
   border-radius: 10px;
   text-align: left;
-  margin: 5px;
+  margin: 15px;
 }
 .review__title {
   font-size: 25px;
-  background-color: rgb(212, 201, 185);
   text-align: center;
   width: auto;
 }
@@ -110,5 +159,6 @@ input {
   font-size: 2rem;
 }
 small {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'IFC RAILROAD', sans-serif;
+  color: white;
 }
