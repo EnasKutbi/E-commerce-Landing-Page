@@ -39,6 +39,8 @@ h1 {
   font-size: 40px;
   margin-bottom: 1rem;
   margin-top: 0rem;
+  padding-top: 0;
+  text-shadow: 2px 2px black;
 }
 .harray {
   position: relative;
@@ -93,6 +95,11 @@ h1 {
 .start-title {
   margin-bottom: 0.5rem;
   margin-top: 0;
+  text-shadow: 2px 2px black;
+}
+.potterheads {
+  font-size: 17px;
+  text-shadow: 2px 2px black;
 }
 .start-button {
   padding: 10px 50px;
@@ -100,6 +107,7 @@ h1 {
   color: black;
   font-size: 15px;
   border-radius: 50px;
+  box-shadow: 2px 2px black;
 }
 .section-title {
   margin-top: 3rem;
@@ -142,24 +150,32 @@ button:hover {
   /*transform: scale(1.1);*/
 }
 #reviews {
-  display: inline-block;
   height: 300px;
-  width: 800px;
   font-size: 18px;
   padding: 10px;
   overflow: scroll;
+  border-radius: 10px;
+}
+.reviews-box {
+  display: grid;
+  margin-top: 0;
+  grid-template-columns: auto auto;
 }
 .review {
   background-color: white;
   width: 600px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   text-align: left;
-  margin: 20px 70px;
+  margin: 20px 15px;
 }
 .review__title {
+  margin-bottom: 0;
   font-size: 25px;
   text-align: center;
+}
+#newletter {
+  border-radius: 10px;
 }
 input {
   background-color: #111a33;
