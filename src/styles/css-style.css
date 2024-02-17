@@ -122,7 +122,6 @@ h1 {
 }
 .product {
   margin-top: 0px;
-  display: inline-block;
   border: 10px solid white;
   border-radius: 10px;
 }
@@ -208,9 +207,7 @@ small {
 @media screen and (max-width: 890px) {
   header,
   footer {
-    display: flex;
-    flex-direction: column;
-    height: 23rem;
+    height: auto;
   }
   nav ul {
     display: flex;
@@ -218,15 +215,29 @@ small {
   }
   #home {
     width: auto;
+    height: auto;
   }
   .products {
     grid-template-columns: auto auto;
+    align-items: center;
+  }
+  .review {
+    margin: 0.5rem;
+    width: auto;
+    height: auto;
   }
   .reviews-box {
     grid-template-columns: auto;
   }
 }
 @media screen and (max-width: 600px) {
+  header,
+  footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
   #home {
     width: auto;
   }
