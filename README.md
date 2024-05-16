@@ -1,4 +1,4 @@
-# deployment link: https://enaskutbi.github.io/sda-2-online-html-css-ecommerce-landing-page/
+
 # Assignment: E-commerce Landing Page - HTML/CSS/SASS/Animation
 
 
